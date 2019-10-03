@@ -1,0 +1,6 @@
+#TO-DO
+1) Noskaidrot, ko vispār ir jēga vai vēlme darīt(?)
+2) Sarunāt izmantotās tehnoloģijas - GitHub, Anaconda, Jupyter Notebook, Python bibliotēkas
+3) Atrast datu kopu vai pat vairākas
+4) Papētīt ar ko var sākt
+5) Uztrenēt mini modeli pašiem
