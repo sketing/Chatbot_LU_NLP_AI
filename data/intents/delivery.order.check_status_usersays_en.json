@@ -1,0 +1,431 @@
+[
+  {
+    "id": "350dbf43-62f8-4c34-810d-819ae9fde29a",
+    "data": [
+      {
+        "text": "status of my order",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "77e41c19-8b3c-4702-983a-9a32ae2ee676",
+    "data": [
+      {
+        "text": "where is my order",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "158b72be-72c5-4150-ab26-c8c64d6872fb",
+    "data": [
+      {
+        "text": "check the status of my ",
+        "userDefined": false
+      },
+      {
+        "text": "delivery",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "98a4cf39-782b-481f-a0c6-9beeccb4cfd2",
+    "data": [
+      {
+        "text": "check my order status",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "7973097a-2082-42ab-9126-1c9873fe8cfd",
+    "data": [
+      {
+        "text": "where is my delivery",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "f9004928-c89d-4f7b-854e-7bb44503e643",
+    "data": [
+      {
+        "text": "how soon will it be delivered",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "92930957-999a-4b7a-ad94-7dfdb6a91305",
+    "data": [
+      {
+        "text": "I\u0027d like to know when my order will be delivered",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "8add507c-9d1f-42da-8fe6-fc85a900ba26",
+    "data": [
+      {
+        "text": "check the status ",
+        "userDefined": false
+      },
+      {
+        "text": "of",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " my ",
+        "userDefined": false
+      },
+      {
+        "text": "delivery",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "5c4dfccd-200a-451b-a4a6-9d938de205e7",
+    "data": [
+      {
+        "text": "when",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " should ",
+        "userDefined": false
+      },
+      {
+        "text": "I",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " expect ",
+        "userDefined": false
+      },
+      {
+        "text": "delivery",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "6111957e-072d-4208-a838-e4dccbfc30cf",
+    "data": [
+      {
+        "text": "what is the status of my delivery",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "f97c8817-68ec-4b3e-ab76-fd4d96106832",
+    "data": [
+      {
+        "text": "how ",
+        "userDefined": false
+      },
+      {
+        "text": "long",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " will it take to deliver my order",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "fbe3eea1-d4e7-4fbc-a218-d2cb8a97e569",
+    "data": [
+      {
+        "text": "how ",
+        "userDefined": false
+      },
+      {
+        "text": "long",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "it",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " takes ",
+        "userDefined": false
+      },
+      {
+        "text": "to",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "deliver",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "dd9c7c40-26a5-4039-a74c-3c6216872fbd",
+    "data": [
+      {
+        "text": "is my order ",
+        "userDefined": false
+      },
+      {
+        "text": "coming",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " soon",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "21381817-8b5a-44d5-893c-76d4e76a9cb7",
+    "data": [
+      {
+        "text": "ok",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " how soon ",
+        "userDefined": false
+      },
+      {
+        "text": "can",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " you deliver",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "426ebf69-51a7-40ae-b27a-ce48cf7d4f1a",
+    "data": [
+      {
+        "text": "show the status of my order",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "e0534095-5694-4124-980a-d092f211b38f",
+    "data": [
+      {
+        "text": "can",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " you tell ",
+        "userDefined": false
+      },
+      {
+        "text": "me when it is",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " delivered",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "a4fcc262-a4e5-4609-9387-ac67a4f589b1",
+    "data": [
+      {
+        "text": "check ",
+        "userDefined": false
+      },
+      {
+        "text": "the",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " status of my order",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "e2a4fac0-5b1f-479c-999d-aabb04aa541b",
+    "data": [
+      {
+        "text": "check ",
+        "userDefined": false
+      },
+      {
+        "text": "delivery",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " status",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "500f9ece-2e3d-41fd-9f27-7fce6738a3b2",
+    "data": [
+      {
+        "text": "when",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "will",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "it",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "get",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "delivered",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "to",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "me",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "72af3127-974c-4743-a2e8-9d4a975f49df",
+    "data": [
+      {
+        "text": "when will I get my order",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

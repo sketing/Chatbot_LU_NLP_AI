@@ -1,0 +1,26 @@
+[
+  {
+    "value": "@beverage-hard-drinks",
+    "synonyms": [
+      "@beverage-hard-drinks"
+    ]
+  },
+  {
+    "value": "@beverage-soft-drinks",
+    "synonyms": [
+      "@beverage-soft-drinks"
+    ]
+  },
+  {
+    "value": "@dish",
+    "synonyms": [
+      "@dish"
+    ]
+  },
+  {
+    "value": "@food-product",
+    "synonyms": [
+      "@food-product"
+    ]
+  }
+]

@@ -1,0 +1,59 @@
+{
+  "id": "6291c8c2-2c9f-4910-9e55-f202109e985b",
+  "name": "delivery.search - context:delivery",
+  "auto": true,
+  "contexts": [
+    "delivery"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "delivery.search",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "20a7f0ba-9882-4691-aa3b-af76a31cd8cb",
+          "required": false,
+          "dataType": "@delivery-product",
+          "name": "product",
+          "value": "$product",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": true
+        },
+        {
+          "id": "7d5bece0-c374-434d-b8e0-2d007b35afa2",
+          "required": false,
+          "dataType": "@cuisine",
+          "name": "cuisine",
+          "value": "$cuisine",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

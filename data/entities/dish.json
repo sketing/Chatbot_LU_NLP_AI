@@ -1,0 +1,9 @@
+{
+  "id": "68bf42e5-ba82-4960-b7b2-e14130a1532d",
+  "name": "dish",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

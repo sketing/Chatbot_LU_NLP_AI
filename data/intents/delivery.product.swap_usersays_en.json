@@ -1,0 +1,299 @@
+[
+  {
+    "id": "ed456566-3664-4fb4-a95a-590fa982cb47",
+    "data": [
+      {
+        "text": "can",
+        "meta": "@sys.ignore",
+        "userDefined": true
+      },
+      {
+        "text": " you change ",
+        "userDefined": false
+      },
+      {
+        "text": "Japanese",
+        "alias": "cuisine-from",
+        "meta": "@cuisine",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "sushi",
+        "alias": "product-from",
+        "meta": "@delivery-product",
+        "userDefined": true
+      },
+      {
+        "text": " for a ",
+        "userDefined": false
+      },
+      {
+        "text": "Chinese",
+        "alias": "cuisine-to",
+        "meta": "@cuisine",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "dumplings",
+        "alias": "product-to",
+        "meta": "@delivery-product",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "b7eebae0-850b-4325-b946-56987acf0146",
+    "data": [
+      {
+        "text": "swap ",
+        "userDefined": false
+      },
+      {
+        "text": "Italian",
+        "alias": "cuisine-from",
+        "meta": "@cuisine",
+        "userDefined": true
+      },
+      {
+        "text": " food for something ",
+        "userDefined": false
+      },
+      {
+        "text": "Chinese",
+        "alias": "cuisine-to",
+        "meta": "@cuisine",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "4e37e8b1-d208-4bec-9efb-6453371a8fcb",
+    "data": [
+      {
+        "text": "change the products in my delivery",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "e95bc171-93c5-4aeb-a3c8-439571cef2b0",
+    "data": [
+      {
+        "text": "change the ",
+        "userDefined": false
+      },
+      {
+        "text": "Coke",
+        "alias": "product-from",
+        "meta": "@delivery-product",
+        "userDefined": true
+      },
+      {
+        "text": " for ",
+        "userDefined": false
+      },
+      {
+        "text": "Sprite",
+        "alias": "product-to",
+        "meta": "@delivery-product",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "e9609bf8-d7d9-4165-bded-5674c0ec7049",
+    "data": [
+      {
+        "text": "change ",
+        "userDefined": false
+      },
+      {
+        "text": "the",
+        "meta": "@sys.ignore",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "Coke",
+        "alias": "product-from",
+        "meta": "@delivery-product",
+        "userDefined": true
+      },
+      {
+        "text": " to ",
+        "userDefined": false
+      },
+      {
+        "text": "a",
+        "meta": "@sys.ignore",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "Sprite",
+        "alias": "product-to",
+        "meta": "@delivery-product",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "acae3c2b-bfff-4409-b8d5-a73346dbcc23",
+    "data": [
+      {
+        "text": "swap products in my order",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "da67e53c-158f-402d-b1d3-14aec49576b5",
+    "data": [
+      {
+        "text": "change",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "Italian",
+        "alias": "cuisine-from",
+        "meta": "@cuisine",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "pizza",
+        "alias": "product-from",
+        "meta": "@delivery-product",
+        "userDefined": false
+      },
+      {
+        "text": " for ",
+        "userDefined": false
+      },
+      {
+        "text": "a",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "burger",
+        "alias": "product-to",
+        "meta": "@delivery-product",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "328ef3e0-d291-4a93-aa68-cce60f476e0a",
+    "data": [
+      {
+        "text": "swap ",
+        "userDefined": false
+      },
+      {
+        "text": "pizza",
+        "alias": "product-from",
+        "meta": "@delivery-product",
+        "userDefined": true
+      },
+      {
+        "text": " and ",
+        "userDefined": false
+      },
+      {
+        "text": "burger",
+        "alias": "product-from",
+        "meta": "@delivery-product",
+        "userDefined": true
+      },
+      {
+        "text": " for ",
+        "userDefined": false
+      },
+      {
+        "text": "french fries",
+        "alias": "product-to",
+        "meta": "@delivery-product",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "ce1f3c98-165b-426d-bacb-4e0215f2ddee",
+    "data": [
+      {
+        "text": "swap the ",
+        "userDefined": false
+      },
+      {
+        "text": "Coke",
+        "alias": "product-from",
+        "meta": "@delivery-product",
+        "userDefined": false
+      },
+      {
+        "text": " for a ",
+        "userDefined": false
+      },
+      {
+        "text": "Fanta",
+        "alias": "product-to",
+        "meta": "@delivery-product",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

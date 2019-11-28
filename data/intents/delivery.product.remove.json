@@ -1,0 +1,87 @@
+{
+  "id": "df2ce6bd-bc11-417d-9408-078abbdaf01f",
+  "name": "delivery.product.remove",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "delivery.product.remove",
+      "affectedContexts": [
+        {
+          "name": "delivery-remove",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "b5f00516-039f-4fd7-adb5-c45c7f112ee1",
+          "required": false,
+          "dataType": "@delivery-product",
+          "name": "product",
+          "value": "$product",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": true
+        },
+        {
+          "id": "33f9be29-37b3-4daf-abd1-c7fe61962dd3",
+          "required": false,
+          "dataType": "@cuisine",
+          "name": "cuisine",
+          "value": "$cuisine",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "454206ed-3b5a-4de4-878f-77b2ea1ff53b",
+          "required": false,
+          "dataType": "@all",
+          "name": "all",
+          "value": "$all",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "7288a4c8-2a45-4cc6-89cd-3d84eb6b3549",
+          "required": false,
+          "dataType": "@sys.number",
+          "name": "amount",
+          "value": "$amount",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": true
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

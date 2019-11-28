@@ -1,0 +1,1333 @@
+[
+  {
+    "id": "bc08093e-f626-4179-8b5a-c64b8a3cd7d4",
+    "data": [
+      {
+        "text": "order ",
+        "userDefined": false
+      },
+      {
+        "text": "lunch",
+        "alias": "meal",
+        "meta": "@meal",
+        "userDefined": true
+      },
+      {
+        "text": " delivery ",
+        "userDefined": false
+      },
+      {
+        "text": "every day",
+        "alias": "recurrence",
+        "meta": "@recurrence",
+        "userDefined": false
+      },
+      {
+        "text": " at ",
+        "userDefined": false
+      },
+      {
+        "text": "11 am",
+        "alias": "date-time",
+        "meta": "@sys.date-time",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "2c28423b-25e6-4771-a859-56e7ee11405b",
+    "data": [
+      {
+        "text": "bring me some ",
+        "userDefined": false
+      },
+      {
+        "text": "beer",
+        "alias": "product",
+        "meta": "@delivery-product",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "9179e6ec-ae68-473e-a521-58076c7131af",
+    "data": [
+      {
+        "text": "can I get food delivered",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "f1bc6974-a5df-4f10-8c1d-3f545aad79bf",
+    "data": [
+      {
+        "text": "I want ",
+        "userDefined": false
+      },
+      {
+        "text": "Mexican",
+        "alias": "cuisine",
+        "meta": "@cuisine",
+        "userDefined": true
+      },
+      {
+        "text": " food delivered",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "4e5beca7-bbfd-4893-b5e0-333530cd0450",
+    "data": [
+      {
+        "text": "takeout with delivery",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "2e4b527f-d95c-4671-897b-d31f881925b4",
+    "data": [
+      {
+        "text": "I want ",
+        "userDefined": false
+      },
+      {
+        "text": "beer",
+        "alias": "product",
+        "meta": "@delivery-product",
+        "userDefined": true
+      },
+      {
+        "text": " delivered",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "0623fb45-c067-4601-acd7-80eb99f109ca",
+    "data": [
+      {
+        "text": "I want ",
+        "userDefined": false
+      },
+      {
+        "text": "Greek",
+        "alias": "cuisine",
+        "meta": "@cuisine",
+        "userDefined": true
+      },
+      {
+        "text": " food delivered",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "c7d48571-a0a9-4433-8195-c05f2385963f",
+    "data": [
+      {
+        "text": "deliver me a ",
+        "userDefined": false
+      },
+      {
+        "text": "burger",
+        "alias": "product",
+        "meta": "@delivery-product",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "d11f7db3-ce95-4eef-af49-1c6d57ca3ff9",
+    "data": [
+      {
+        "text": "deliver ",
+        "userDefined": false
+      },
+      {
+        "text": "Chinese",
+        "alias": "cuisine",
+        "meta": "@cuisine",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "wok",
+        "alias": "product",
+        "meta": "@delivery-product",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "b901c1d6-0f36-4b83-a072-2737b2c18c03",
+    "data": [
+      {
+        "text": "I want ",
+        "userDefined": false
+      },
+      {
+        "text": "pizza",
+        "alias": "product",
+        "meta": "@delivery-product",
+        "userDefined": true
+      },
+      {
+        "text": " delivered for ",
+        "userDefined": false
+      },
+      {
+        "text": "dinner",
+        "alias": "meal",
+        "meta": "@meal",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "dd09399d-1978-49d6-9b98-e314695915e5",
+    "data": [
+      {
+        "text": "can I get a ",
+        "userDefined": false
+      },
+      {
+        "text": "pizza",
+        "alias": "product",
+        "meta": "@delivery-product",
+        "userDefined": true
+      },
+      {
+        "text": " delivered",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "5eb9f5e7-e59f-4078-a6e2-4deab44e2ca3",
+    "data": [
+      {
+        "text": "I need ",
+        "userDefined": false
+      },
+      {
+        "text": "tacos",
+        "alias": "product",
+        "meta": "@delivery-product",
+        "userDefined": true
+      },
+      {
+        "text": " delivered ",
+        "userDefined": false
+      },
+      {
+        "text": "tonight",
+        "alias": "date-time",
+        "meta": "@sys.date-time",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "d6357a2c-48e6-4121-8f8b-e24cd8e9adc1",
+    "data": [
+      {
+        "text": "Chinese",
+        "alias": "cuisine",
+        "meta": "@cuisine",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "wok",
+        "alias": "product",
+        "meta": "@delivery-product",
+        "userDefined": true
+      },
+      {
+        "text": " delivery ",
+        "userDefined": false
+      },
+      {
+        "text": "nearby",
+        "alias": "sort",
+        "meta": "@map-sort",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "bbdfcaf2-29d7-4a64-aa74-5f342ce6642f",
+    "data": [
+      {
+        "text": "best",
+        "alias": "sort",
+        "meta": "@map-sort",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "pizza",
+        "alias": "product",
+        "meta": "@delivery-product",
+        "userDefined": true
+      },
+      {
+        "text": " delivery",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "c5817447-463f-4d29-8c18-f9a5f4424c65",
+    "data": [
+      {
+        "text": "where can I order ",
+        "userDefined": false
+      },
+      {
+        "text": "pizza",
+        "alias": "product",
+        "meta": "@delivery-product",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "b7177596-b15f-475d-bb0a-d3ffb82e6479",
+    "data": [
+      {
+        "text": "bring me something to ",
+        "userDefined": false
+      },
+      {
+        "text": "eat",
+        "meta": "@sys.ignore",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "499475a2-023b-4448-892c-b1649a36310f",
+    "data": [
+      {
+        "text": "food",
+        "meta": "@sys.ignore",
+        "userDefined": true
+      },
+      {
+        "text": " delivery in ",
+        "userDefined": false
+      },
+      {
+        "text": "Palo Alto",
+        "alias": "address",
+        "meta": "@sys.location",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "d0f13d0d-5f80-431e-97dd-21ebc8987fd0",
+    "data": [
+      {
+        "text": "bring me a drink",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "7e6d2c91-8a3a-492d-b58e-076b6ba9441a",
+    "data": [
+      {
+        "text": "I want big pizza delivered to ",
+        "userDefined": false
+      },
+      {
+        "text": "Delhi",
+        "alias": "address",
+        "meta": "@sys.location",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "f04f6512-8357-4959-8cce-a435b32d1baa",
+    "data": [
+      {
+        "text": "I want some ",
+        "userDefined": false
+      },
+      {
+        "text": "tacos",
+        "alias": "product",
+        "meta": "@delivery-product",
+        "userDefined": true
+      },
+      {
+        "text": " delivered",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "bc227102-e649-4d51-aebb-805e16813cee",
+    "data": [
+      {
+        "text": "I would like a medium ",
+        "userDefined": false
+      },
+      {
+        "text": "pepperoni pizza",
+        "alias": "product",
+        "meta": "@delivery-product",
+        "userDefined": true
+      },
+      {
+        "text": " delivered to ",
+        "userDefined": false
+      },
+      {
+        "text": "Los Robles Avenue, Pasadena, California",
+        "alias": "address",
+        "meta": "@sys.location",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "in 30 minutes",
+        "alias": "date-time",
+        "meta": "@sys.date-time",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "4ea37863-c799-4683-997f-e41360d47f82",
+    "data": [
+      {
+        "text": "I",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " want some ",
+        "userDefined": false
+      },
+      {
+        "text": "tacos",
+        "alias": "product",
+        "meta": "@delivery-product",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "delivered",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "to",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "me",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "48571b06-1144-4f07-be06-156b82e2673d",
+    "data": [
+      {
+        "text": "pizza",
+        "alias": "product",
+        "meta": "@delivery-product",
+        "userDefined": true
+      },
+      {
+        "text": " delivery ",
+        "userDefined": false
+      },
+      {
+        "text": "nearby",
+        "alias": "sort",
+        "meta": "@map-sort",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "4c898dbd-7b9f-4d4e-a45e-16eec366257d",
+    "data": [
+      {
+        "text": "find me a ",
+        "userDefined": false
+      },
+      {
+        "text": "pizza",
+        "alias": "product",
+        "meta": "@delivery-product",
+        "userDefined": true
+      },
+      {
+        "text": " for delivery",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "938cf442-38d9-487f-b445-6cf8d16d8e07",
+    "data": [
+      {
+        "text": "I\u0027m hungry who delivers ",
+        "userDefined": false
+      },
+      {
+        "text": "breakfast",
+        "alias": "meal",
+        "meta": "@meal",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "a431c53c-d272-4bf4-801e-8076737a69cd",
+    "data": [
+      {
+        "text": "I need ",
+        "userDefined": false
+      },
+      {
+        "text": "pizza",
+        "alias": "product",
+        "meta": "@delivery-product",
+        "userDefined": true
+      },
+      {
+        "text": " delivery",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "86c5e0f5-cd79-4b28-9c4b-af2d36bc2c8e",
+    "data": [
+      {
+        "text": "bring me ",
+        "userDefined": false
+      },
+      {
+        "text": "coffee",
+        "alias": "product",
+        "meta": "@delivery-product",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "a11e96b1-789d-4519-89ee-6c49d0a0a8b8",
+    "data": [
+      {
+        "text": "I need ",
+        "userDefined": false
+      },
+      {
+        "text": "coffee",
+        "alias": "product",
+        "meta": "@delivery-product",
+        "userDefined": true
+      },
+      {
+        "text": " to ",
+        "userDefined": false
+      },
+      {
+        "text": "Baxter Building 42nd street, Manhattan",
+        "alias": "address",
+        "meta": "@sys.location",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 11,
+    "updated": 0
+  },
+  {
+    "id": "347c36c1-8847-469c-bce5-165417ec1ad2",
+    "data": [
+      {
+        "text": "deliver a product",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "2db1185d-ef89-4c74-b485-0d94214010b4",
+    "data": [
+      {
+        "text": "order some food",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "24ae2126-eb00-46b3-9a7f-023208f20879",
+    "data": [
+      {
+        "text": "order ",
+        "userDefined": false
+      },
+      {
+        "text": "pizza",
+        "alias": "product",
+        "meta": "@delivery-product",
+        "userDefined": true
+      },
+      {
+        "text": " to ",
+        "userDefined": false
+      },
+      {
+        "text": "420 Paper St. Wilmington, DE 19886",
+        "alias": "address",
+        "meta": "@sys.location",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "d01c8561-5814-498f-94e8-4d9200b83134",
+    "data": [
+      {
+        "text": "can I get a ",
+        "userDefined": false
+      },
+      {
+        "text": "hamburger",
+        "alias": "product",
+        "meta": "@delivery-product",
+        "userDefined": true
+      },
+      {
+        "text": " delivered to me",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "0c2a308e-275c-4c23-a5a4-852b03790758",
+    "data": [
+      {
+        "text": "I\u0027m hungry bring me some ",
+        "userDefined": false
+      },
+      {
+        "text": "McDonald\u0027s",
+        "alias": "venue-chain",
+        "meta": "@venue-eating-out-chain",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "2cac052d-91fd-4ae4-8940-8c0445670720",
+    "data": [
+      {
+        "text": "delivery",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "f52e11dd-bc74-49e8-8683-71a4f0a2be51",
+    "data": [
+      {
+        "text": "sushi",
+        "alias": "product",
+        "meta": "@delivery-product",
+        "userDefined": true
+      },
+      {
+        "text": " delivery",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "2d22921e-4548-4178-89e9-1c906446f508",
+    "data": [
+      {
+        "text": "I want to get a ",
+        "userDefined": false
+      },
+      {
+        "text": "salami pizza",
+        "alias": "product",
+        "meta": "@delivery-product",
+        "userDefined": true
+      },
+      {
+        "text": " delivered",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "e9464ec8-f6b9-400a-a940-e38fb952450c",
+    "data": [
+      {
+        "text": "I want to order ",
+        "userDefined": false
+      },
+      {
+        "text": "3",
+        "alias": "amount",
+        "meta": "@sys.number",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "pizzas",
+        "alias": "product",
+        "meta": "@delivery-product",
+        "userDefined": true
+      },
+      {
+        "text": " and ",
+        "userDefined": false
+      },
+      {
+        "text": "6",
+        "alias": "amount",
+        "meta": "@sys.number",
+        "userDefined": true
+      },
+      {
+        "text": " bottles of ",
+        "userDefined": false
+      },
+      {
+        "text": "sparkling water",
+        "alias": "product",
+        "meta": "@delivery-product",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "009f5119-c93c-4009-abec-9e8742b12b5d",
+    "data": [
+      {
+        "text": "I am hungry and I need a food delivery",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "7a8fa4ba-f509-43bc-895a-84c7436c46bb",
+    "data": [
+      {
+        "text": "can you get me a ",
+        "userDefined": false
+      },
+      {
+        "text": "pizza",
+        "alias": "product",
+        "meta": "@delivery-product",
+        "userDefined": true
+      },
+      {
+        "text": " delivered",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "e922dd5b-792d-4f46-bf7a-189c1df6aaea",
+    "data": [
+      {
+        "text": "deliver me ",
+        "userDefined": false
+      },
+      {
+        "text": "pizza",
+        "alias": "product",
+        "meta": "@delivery-product",
+        "userDefined": true
+      },
+      {
+        "text": " to ",
+        "userDefined": false
+      },
+      {
+        "text": "420 Paper St. Wilmington, DE 19886",
+        "alias": "address",
+        "meta": "@sys.location",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "15e9562c-6c8a-4cb8-af07-4653fe55c94b",
+    "data": [
+      {
+        "text": "order ",
+        "userDefined": false
+      },
+      {
+        "text": "pizza",
+        "alias": "product",
+        "meta": "@delivery-product",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "0a687999-e1d9-4211-b99d-d2f1e9ae2dae",
+    "data": [
+      {
+        "text": "food",
+        "meta": "@sys.ignore",
+        "userDefined": true
+      },
+      {
+        "text": " takeout with delivery service",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "76d03354-1a55-4dc4-a95a-e69fe00bfec6",
+    "data": [
+      {
+        "text": "beer",
+        "alias": "product",
+        "meta": "@delivery-product",
+        "userDefined": true
+      },
+      {
+        "text": " delivery",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "818b24bf-49e7-4345-bb6d-00de48e5100c",
+    "data": [
+      {
+        "text": "I want something to order",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "0fd9e947-bc89-4922-8b1d-0fb4bd8ddae6",
+    "data": [
+      {
+        "text": "deliver me ",
+        "userDefined": false
+      },
+      {
+        "text": "beer",
+        "alias": "product",
+        "meta": "@delivery-product",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "every day",
+        "alias": "recurrence",
+        "meta": "@recurrence",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "ccc035b6-1af2-4a83-b93f-82661b11e392",
+    "data": [
+      {
+        "text": "can I get a ",
+        "userDefined": false
+      },
+      {
+        "text": "pizza",
+        "alias": "product",
+        "meta": "@delivery-product",
+        "userDefined": true
+      },
+      {
+        "text": " delivered to my ",
+        "userDefined": false
+      },
+      {
+        "text": "home",
+        "alias": "address",
+        "meta": "@sys.location",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "f2773d80-6cde-494b-a5b8-573fc2973146",
+    "data": [
+      {
+        "text": "bring me ",
+        "userDefined": false
+      },
+      {
+        "text": "food",
+        "meta": "@sys.ignore",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "a6f49542-8c15-4678-a1e7-f9401214bf99",
+    "data": [
+      {
+        "text": "I\u0027d like to have ",
+        "userDefined": false
+      },
+      {
+        "text": "pizza",
+        "alias": "product",
+        "meta": "@delivery-product",
+        "userDefined": true
+      },
+      {
+        "text": " delivered",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "855ec296-113e-44ae-aa92-f7be6d058039",
+    "data": [
+      {
+        "text": "I want a ",
+        "userDefined": false
+      },
+      {
+        "text": "bagel",
+        "alias": "product",
+        "meta": "@delivery-product",
+        "userDefined": true
+      },
+      {
+        "text": " can you bring me one",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "a51a1dfe-961c-4d4e-8eb1-6ac34f9c5754",
+    "data": [
+      {
+        "text": "delivery service",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "3aa55d0b-7e4d-4caf-a0c1-286480461226",
+    "data": [
+      {
+        "text": "Mexican",
+        "alias": "cuisine",
+        "meta": "@cuisine",
+        "userDefined": true
+      },
+      {
+        "text": " delivery",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "94db449b-6d4f-4e0f-b20c-d128ef8a0e38",
+    "data": [
+      {
+        "text": "I\u0027m hungry bring me some food please",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "be0aa653-515f-4d8b-8b72-30e12b2dc978",
+    "data": [
+      {
+        "text": "I\u0027m looking to get ",
+        "userDefined": false
+      },
+      {
+        "text": "Starbucks",
+        "alias": "venue-chain",
+        "meta": "@venue-eating-out-chain",
+        "userDefined": true
+      },
+      {
+        "text": " delivered",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "b09374fe-8f4a-49dd-85f6-a67462378509",
+    "data": [
+      {
+        "text": "can you bring me some food from ",
+        "userDefined": false
+      },
+      {
+        "text": "McDonald\u0027s",
+        "alias": "venue-chain",
+        "meta": "@venue-eating-out-chain",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "fe399c2c-17fc-46b7-8314-39c9bf23d041",
+    "data": [
+      {
+        "text": "deliver ",
+        "userDefined": false
+      },
+      {
+        "text": "pizza",
+        "alias": "product",
+        "meta": "@delivery-product",
+        "userDefined": true
+      },
+      {
+        "text": " to my ",
+        "userDefined": false
+      },
+      {
+        "text": "home",
+        "alias": "address",
+        "meta": "@sys.location",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "4c84440e-4f25-4a07-aef7-e45b1fcc6e86",
+    "data": [
+      {
+        "text": "food",
+        "meta": "@sys.ignore",
+        "userDefined": true
+      },
+      {
+        "text": " delivery ",
+        "userDefined": false
+      },
+      {
+        "text": "near me",
+        "alias": "sort",
+        "meta": "@map-sort",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "04e464bc-a703-4559-b312-654d5af26a13",
+    "data": [
+      {
+        "text": "best",
+        "alias": "sort",
+        "meta": "@map-sort",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "nearest",
+        "alias": "sort",
+        "meta": "@map-sort",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "pizza",
+        "alias": "product",
+        "meta": "@delivery-product",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "delivery",
+        "meta": "@sys.ignore",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "7f9b2c36-9e0e-4061-aa71-f28f0439c178",
+    "data": [
+      {
+        "text": "fast food",
+        "meta": "@sys.ignore",
+        "userDefined": true
+      },
+      {
+        "text": " delivery",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "ea0bac9f-addb-4a76-b7a6-8b70c81c0351",
+    "data": [
+      {
+        "text": "what can I have delivered",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "b4e38f99-47a4-4287-bc30-2ea3317dad8c",
+    "data": [
+      {
+        "text": "I want to get ",
+        "userDefined": false
+      },
+      {
+        "text": "dinner",
+        "alias": "meal",
+        "meta": "@meal",
+        "userDefined": true
+      },
+      {
+        "text": " delivered ",
+        "userDefined": false
+      },
+      {
+        "text": "at 8 pm",
+        "alias": "date-time",
+        "meta": "@sys.date-time",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

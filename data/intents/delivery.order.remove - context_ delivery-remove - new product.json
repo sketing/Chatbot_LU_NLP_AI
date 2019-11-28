@@ -1,0 +1,47 @@
+{
+  "id": "e47050ce-bcef-4cab-b944-15dd4093eff2",
+  "name": "delivery.order.remove - context: delivery-remove - new product",
+  "auto": true,
+  "contexts": [
+    "delivery-remove"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "delivery.order.remove",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "295baf2d-ec02-4e23-a5d2-2b9d2cd71642",
+          "required": false,
+          "dataType": "@delivery-product",
+          "name": "product",
+          "value": "$product",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": true
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

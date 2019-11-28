@@ -1,0 +1,56 @@
+{
+  "description": "Sometimes users want to stay in, but don\u0027t always want to cook. This agent lets them order food and drinks for home delivery. They can place new orders or modify existing orders to make sure they get what they want.",
+  "language": "en",
+  "shortDescription": "Create and manage food and drink orders",
+  "examples": "User: I want to order 3 pizzas and 6 bottles of sparkling water.\nUser: Remove the burger from my order.\nUser: Could I order some Chinese food please?\nUser: How long will it take to deliver my order?\nUser: Swap the pizza for a lentil soup.\nUser: Check what I\u0027ve ordered.",
+  "linkToDocs": "",
+  "activeAssistantAgents": [
+    "smalltalk-domain-on"
+  ],
+  "disableInteractionLogs": false,
+  "disableStackdriverLogs": true,
+  "googleAssistant": {
+    "googleAssistantCompatible": false,
+    "project": "",
+    "welcomeIntentSignInRequired": false,
+    "startIntents": [],
+    "systemIntents": [],
+    "endIntentIds": [],
+    "oAuthLinking": {
+      "required": false,
+      "providerId": "",
+      "authorizationUrl": "",
+      "tokenUrl": "",
+      "scopes": "",
+      "privacyPolicyUrl": "",
+      "grantType": "AUTH_CODE_GRANT"
+    },
+    "voiceType": "MALE_1",
+    "capabilities": [],
+    "env": "",
+    "protocolVersion": "V1",
+    "autoPreviewEnabled": false,
+    "isDeviceAgent": false
+  },
+  "defaultTimezone": "America/New_York",
+  "webhook": {
+    "url": "",
+    "username": "",
+    "headers": {},
+    "available": false,
+    "useForDomains": false,
+    "cloudFunctionsEnabled": false,
+    "cloudFunctionsInitialized": false
+  },
+  "webhookTimeout": 12000,
+  "isPrivate": false,
+  "customClassifierMode": "use.instead",
+  "mlMinConfidence": 0.3,
+  "supportedLanguages": [],
+  "onePlatformApiVersion": "v2",
+  "analyzeQueryTextSentiment": false,
+  "enabledKnowledgeBaseNames": [],
+  "knowledgeServiceConfidenceAdjustment": -0.4,
+  "dialogBuilderMode": false,
+  "baseActionPackagesUrl": ""
+}

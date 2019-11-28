@@ -1,0 +1,47 @@
+{
+  "id": "3459368b-9e57-47bc-9847-22fe32f98898",
+  "name": "delivery.order.add - context: delivery-add - new product",
+  "auto": true,
+  "contexts": [
+    "delivery-add"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "delivery.order.add",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "0e0e6abc-1690-4b88-922c-50b4a80a62d7",
+          "required": false,
+          "dataType": "@delivery-product",
+          "name": "product",
+          "value": "$product",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": true
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}
