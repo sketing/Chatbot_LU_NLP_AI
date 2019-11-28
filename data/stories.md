@@ -22,6 +22,15 @@
 * deny
   - utter_goodbye
 
+## order path 1
+* greet
+ - utter_greet
+* product.add
+ - product_add
+* goodbye
+ - utter_goodbye
+
+
 ## say goodbye
 * goodbye
   - utter_goodbye

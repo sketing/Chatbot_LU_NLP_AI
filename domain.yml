@@ -6,6 +6,7 @@ intents:
   - mood_great
   - mood_unhappy
   - bot_challenge
+  - 
 
 actions:
 - utter_greet
@@ -14,10 +15,20 @@ actions:
 - utter_happy
 - utter_goodbye
 - utter_iamabot
+- product_add
+- product_delete
+- product_swap
+- product_change_amount
+- order_start
+- order_check
+- order_confirm
+- order_confirm_affirm
+- order_confirm_deny
+- utter_order_initiate
 
 templates:
   utter_greet:
-  - text: "Hey! How are you?"
+  - text: "Hey! What would you like to order?"
 
   utter_cheer_up:
   - text: "Here is something to cheer you up:"
@@ -34,3 +45,6 @@ templates:
 
   utter_iamabot:
   - text: "I am a bot, powered by Rasa."
+  
+  product_add: 
+  - text: "Your pizza has been added."
