@@ -7,22 +7,6 @@
 - hey there
 - Hi
 
-## intent:affirm
-- yes
-- indeed
-- of course
-- that sounds good
-- correct
-
-## intent:deny
-- no
-- never
-- I don't think so
-- don't like that
-- no way
-- not really
-- No thank you
-
 ## intent:drink_chosen
 - I'd like to have some [water](drink)
 - Can I get a [Pepsi](drink)?
@@ -35,6 +19,9 @@
 - Do you have something to drink?
 - Do yuou have some [juice](drink)?
 - Drink
+- [pepsi](drink)
+- [water](drink)
+- [sprite](drink)
 - Get me a cool beverage
 
 ## intent:pizza_chosen

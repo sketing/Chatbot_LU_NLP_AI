@@ -1,66 +1,49 @@
 intents:
-- greet
-- pizza_list
-- pizza_chosen
-- drink_list
-- drink_chosen
-- goodbye
-- affirm
-- deny
-- address
-- mood_great
+  - greet
+  - pizza:
+    use_entities: ["pizza"]
+  - drink:
+    use_entities: ["drink"]
+  - address:
+    use_entities: ["address"]
+  - goodbye
 
 entities:
-- pizza
-- drink
-- address
+  - pizza
+  - drink
+  - address
 
 slots:
   address:
-    type: text
+    type: unfeaturized
+    auto_fill: true
   drink:
-    type: categorical
-    values:
-    - pepsi
-    - water
-    - sprite
-    - juice
+    type: unfeaturized
+    auto_fill: true
   pizza:
-    type: categorical
-    values:
-    - salami
-    - margharita
-    - hawaii
-    - mushroom
-    - vegeterian
+    type: unfeaturized
+    auto_fill: true
+forms:
+  - pizza_form
+  - drink_form
+  - address_form
+
+actions:
+  - utter_greet
+  - utter_submit
+  - utter_goodbye
+  - utter_ask_pizza
+  - utter_ask_drink
+  - utter_ask_address
 
 templates:
   utter_greet:
   - text: Hi there! What would you like to order?
-  utter_pizza_list:
-  - text: 'We offer the following kind of pizzas: 
-    Hawaii, Margharita, Salami, Vegeterian and Mushroom'
-  utter_anything_else:
-  - text: Would you like anything else?
-  utter_drink_list:
-  - text: 'we have the following drinks: Pepsi, Sprite, Juice, water'
   utter_goodbye:
   - text: Bye
+  utter_ask_pizza:
+  - text: 'What kind of pizza would you like? We have Hawaii, Margharita, Salami, Vegeterian and Mushroom pizzas.'
+  utter_ask_drink:
+  - text: 'What kind of drinks would you like to have? We have the following drinks: Pepsi, Sprite, Juice, water'
   utter_ask_address:
   - text: What is the delivery address?
-  utter_ask_pizza:
-  - text: 'What kind of pizza would you like? We have 
-  Hawaii, Margharita, Salami, Vegeterian and Mushroom pizzas.'
-
-forms:
-- pizza_form
-- drink_form
-- address_form
-
-actions:
-- utter_greet
-- utter_pizza_list
-- utter_anything_else
-- utter_drink_list
-- utter_goodbye
-- utter_ask_pizza

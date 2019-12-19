@@ -26,12 +26,14 @@
 #
 #         return []
 
-from typing import Any, Text, Dict, List
+from typing import Dict, Text, Any, List, Union, Optional
 
-from rasa_sdk import Action, Tracker
+from rasa_sdk import Tracker
 from rasa_sdk.executor import CollectingDispatcher
+from rasa_sdk.forms import FormAction
 
-class pizza_form:
+
+class PizzaForm(FormAction):
     def name(self) -> Text:
         """Unique identifier of the form"""
 
@@ -56,25 +58,26 @@ class pizza_form:
         dispatcher.utter_message(template="utter_submit")
         return []
     
-    def slot_mappings(self) -> Dict[Text, Union[Dict, List[Dict]]]:
-    """A dictionary to map required slots to
-        - an extracted entity
-        - intent: value pairs
-        - a whole message
-        or a list of them, where a first match will be picked
+    """def slot_mappings(self) -> Dict[Text, Union[Dict, List[Dict]]]:
+            A dictionary to map required slots to
+            - an extracted entity
+            - intent: value pairs
+            - a whole message
+            or a list of them, where a first match will be picked
 
-        EXAMPLE CODE
+            EXAMPLE CODE
 
-        return{
-        "outdoor_seating": [
-            self.from_entity(entity="seating"),
-            self.from_intent(intent="affirm", value=True),
-            self.from_intent(intent="deny", value=False),
-            ]
-        }"""
+            return{
+            "outdoor_seating": [
+                self.from_entity(entity="seating"),
+                self.from_intent(intent="affirm", value=True),
+                self.from_intent(intent="deny", value=False),
+                ]
+            }
         return {"pizza":self.from_entity(entity="pizza")}
+    """
 
-class drink_form:
+class DrinkForm(FormAction):
     def name(self) -> Text:
         """Unique identifier of the form"""
 
@@ -86,29 +89,22 @@ class drink_form:
 
         return ["drink"]
 
-    def slot_mappings(self) -> Dict[Text, Union[Dict, List[Dict]]]:
-    """A dictionary to map required slots to
-        - an extracted entity
-        - intent: value pairs
-        - a whole message
-        or a list of them, where a first match will be picked"""
-
-        return {"drink":self.from_entity(entity="drink")]}
-
     def submit(
         self,
         dispatcher: CollectingDispatcher,
         tracker: Tracker,
         domain: Dict[Text, Any],
     ) -> List[Dict]:
-        """Define what the form has to do
-            after all required slots are filled"""
+        """
+        Define what the form has to do
+        after all required slots are filled
+        """
 
         # utter submit template
         dispatcher.utter_message(template="utter_submit")
         return []
 
-class address_form:
+class AddressForm(FormAction):
     def name(self) -> Text:
         """Unique identifier of the form"""
 
@@ -119,15 +115,6 @@ class address_form:
         """A list of required slots that the form has to fill"""
 
         return ["address"]
-
-    def slot_mappings(self) -> Dict[Text, Union[Dict, List[Dict]]]:
-    """A dictionary to map required slots to
-        - an extracted entity
-        - intent: value pairs
-        - a whole message
-        or a list of them, where a first match will be picked"""
-
-        return {"address":self.from_entity(entity="address")}
         
     def submit(
         self,

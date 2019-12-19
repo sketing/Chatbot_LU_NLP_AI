@@ -1,4 +1,4 @@
-## happy path
+## path_1
 * greet
   - utter_greet
 * pizza_list
