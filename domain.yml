@@ -1,54 +1,66 @@
 intents:
-  - greet
-  - pizza_list
-  - pizza_chosen
-  -
-  - goodbye
-  - affirm
-  - deny
-  - mood_great
-  - mood_unhappy
-  - bot_challenge
-  - product_add
+- greet
+- pizza_list
+- pizza_chosen
+- drink_list
+- drink_chosen
+- goodbye
+- affirm
+- deny
+- address
+- mood_great
 
 entities:
-  - food_product
-  
-actions:
-- utter_greet
-- utter_cheer_up
-- utter_did_that_help
-- utter_happy
-- utter_goodbye
-- utter_iamabot
-- product_add
+- pizza
+- drink
+- address
+
+slots:
+  address:
+    type: text
+  drink:
+    type: categorical
+    values:
+    - pepsi
+    - water
+    - sprite
+    - juice
+  pizza:
+    type: categorical
+    values:
+    - salami
+    - margharita
+    - hawaii
+    - mushroom
+    - vegeterian
 
 templates:
   utter_greet:
-  - text: "Hi there! What would you like to order?"
-
+  - text: Hi there! What would you like to order?
   utter_pizza_list:
-  - text: "We offer the following kind of pizzas: 
-  Hawaii, Margharita, Salami, Vegeterian and Mushroom"
-  
-  utter_ask_more:
-  - text: "Would you like anything else?"
-
-  utter_cheer_up:
-  - text: "Here is something to cheer you up:"
-    image: "https://i.imgur.com/nGF1K8f.jpg"
-
-  utter_did_that_help:
-  - text: "Did that help you?"
-
-  utter_happy:
-  - text: "Great, carry on!"
-
+  - text: 'We offer the following kind of pizzas: 
+    Hawaii, Margharita, Salami, Vegeterian and Mushroom'
+  utter_anything_else:
+  - text: Would you like anything else?
+  utter_drink_list:
+  - text: 'we have the following drinks: Pepsi, Sprite, Juice, water'
   utter_goodbye:
-  - text: "Bye"
+  - text: Bye
+  utter_ask_address:
+  - text: What is the delivery address?
+  utter_ask_pizza:
+  - text: 'What kind of pizza would you like? We have 
+  Hawaii, Margharita, Salami, Vegeterian and Mushroom pizzas.'
 
-  utter_iamabot:
-  - text: "I am a bot, powered by Rasa."
+forms:
+- pizza_form
+- drink_form
+- address_form
 
-  product_add:
-  - text: "Pizza has been added."
+actions:
+- utter_greet
+- utter_pizza_list
+- utter_anything_else
+- utter_drink_list
+- utter_goodbye
+- utter_ask_pizza

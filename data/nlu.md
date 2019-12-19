@@ -5,40 +5,7 @@
 - good morning
 - good evening
 - hey there
-
-## intent:pizza_list
-- I'd like a pizza
-- What are you offering?
-- Give me a pizza
-- What do you offer?
-- I'd like a burger
-- Get me some italian
-- a box of wok would be nice
-
-## intent:pizza_chosen
-- I'd like a [Hawaii](pizza) pizza
-- Let's get a [Salami] (pizza)
-- [Vegeterian] (pizza)
-- [Margharita] (pizza)
-- [Mushroom] (pizza)
-
-## intent:drink_list
-- I'd like a drink
-- What else do you offer?
-- What kind of drinks do you have?
-- Do you have something to drink?
-- Drink
-- Get me a cool beverage
-
-## intent: choose_drink
-- I'd like to have some [water](drink)
-
-
-## intent:goodbye
-- bye
-- goodbye
-- see you around
-- see you later
+- Hi
 
 ## intent:affirm
 - yes
@@ -54,57 +21,50 @@
 - don't like that
 - no way
 - not really
+- No thank you
 
-## intent:mood_great
-- perfect
-- very good
-- great
-- amazing
-- wonderful
-- I am feeling very good
-- I am great
-- I'm good
+## intent:drink_chosen
+- I'd like to have some [water](drink)
+- Can I get a [Pepsi](drink)?
+- A [Sprite](drink), please!
 
-## intent:mood_unhappy
-- sad
-- very sad
-- unhappy
-- bad
-- very bad
-- awful
-- terrible
-- not very good
-- extremely sad
-- so sad
+## intent:drink_list
+- I'd like a drink
+- What else do you offer?
+- What kind of drinks do you have?
+- Do you have something to drink?
+- Do yuou have some [juice](drink)?
+- Drink
+- Get me a cool beverage
 
-## intent:bot_challenge
-- are you a bot?
-- are you a human?
-- am I talking to a bot?
-- am I talking to a human?
+## intent:pizza_chosen
+- I'd like a [Hawaii](pizza) pizza
+- Let's get a [Salami](pizza)
+- [Margharita](pizza)
+- [Mushroom](pizza)
+- Okay, I'd like a pizza with some Salami
+- I would like a pizza with [Salami](pizza)
+- Give me the one with the [salami](pizza)
+- Can I have a [Salami](pizza) pizza please?
 
-## intent:order_start
-- I would like to order something
-- Can I have some food
-- Please feed me!
-- I'm hungry
+## intent:pizza_list
+- I'd like a pizza
+- What are you offering?
+- Give me a pizza
+- What do you offer?
+- I'd like a burger
+- Get me some italian
+- a box of wok would be nice
+- I would like a [pizza](food_product)
+- okay. Can I have a [pizza](food_product) then?
 
-## intent:order_check
-- What's in my order so far?
-- Please show me my basket
-- What's in the cart?
-- Show me the list of produce
-- What have I ordered so far?
+## intent:goodbye
+- bye
+- goodbye
+- see you around
+- see you later
 
-## intent:order_confirm_deny
-- No that is incorrect
-- No, no, no
+## intent:address
+- My address is [Oak street 2](address)
+- [Brivibas boulevard 13](address)
 
-## intent:order_confirm_affirm
-- Yes, that is correct
-- Affirmative
-- All good
-- Approved
-- Hell yeah
-- Yeah
-- Great
