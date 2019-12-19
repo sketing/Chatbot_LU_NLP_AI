@@ -1,8 +1,10 @@
 ## happy path
 * greet
   - utter_greet
-* mood_great
-  - utter_happy
+* pizza_list
+  - utter_pizza_list
+* pizza_chosen
+  - utter_ask_more
 
 ## sad path 1
 * greet
@@ -25,11 +27,11 @@
 ## order path 1
 * greet
  - utter_greet
-* product.add
+* product_add
  - product_add
-* goodbye
- - utter_goodbye
-
+ - utter_did_that_help
+* affirm
+  - utter_happy
 
 ## say goodbye
 * goodbye
