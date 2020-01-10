@@ -28,9 +28,11 @@
 
 from typing import Dict, Text, Any, List, Union, Optional
 
-from rasa_sdk import Tracker
-from rasa_sdk.executor import CollectingDispatcher
-from rasa_sdk.forms import FormAction
+from rasa_core_sdk import ActionExecutionRejection
+from rasa_core_sdk import Tracker
+from rasa_core_sdk.events import SlotSet
+from rasa_core_sdk.executor import CollectingDispatcher
+from rasa_core_sdk.forms import FormAction, REQUESTED_SLOT
 
 
 class PizzaForm(FormAction):
